@@ -58,7 +58,8 @@ nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>j :NERDTreeFind<CR>
 " autocmd VimEnter * NERDTree
 " autocmd VimEnter * wincmd p
+
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 
 " Git Gutter Config
-let g:gitgutter_sign_column_always=1
+set signcolumn=yes
