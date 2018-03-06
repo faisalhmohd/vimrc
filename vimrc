@@ -36,12 +36,6 @@ set hlsearch
 " Cancel search by Escape
 nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
 
-" Use arrows
-map <D-A-RIGHT> <C-w>l
-map <D-A-LEFT> <C-w>h
-map <D-A-DOWN> <C-w><C-w>
-map <D-A-UP> <C-w>W
-
 " Reopen last file by Leader+Leader
 nnoremap <Leader><Leader> :e#<CR>
 
