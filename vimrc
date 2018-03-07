@@ -24,17 +24,14 @@ set history=100
 " Smart Indenting
 filetype indent on
 set nowrap
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set smartindent
 set autoindent
 
 " Highlight found words when searching
 set hlsearch
-
-" Cancel search by Escape
-nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
 
 " Reopen last file by Leader+Leader
 nnoremap <Leader><Leader> :e#<CR>
